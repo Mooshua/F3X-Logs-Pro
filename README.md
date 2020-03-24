@@ -4,7 +4,7 @@ Repository documenting the F3X Logs Pro library (https://www.roblox.com/library/
 # Getting Started
 F3X Logs pro works with just one line of code:
 ```lua
-require(4737196519)
+require(4737196519)()
 ```
 This will initialize the module and will automatically start logging any F3X tools used by users.
 
@@ -15,7 +15,7 @@ Say `/console` in chat or use the shortcut Shift + F9.
 The F3X Logs module also has a few methods you can call for granular control.
 
 ```lua
-local Logs = require(4737196519)
+local Logs = require(4737196519)()
 
 Logs:NewTools(parent)
 ```
@@ -24,7 +24,7 @@ This creates new F3X tools and puts them in `parent`.
 Returns the tools themselves.
 
 ```lua
-local Logs = require(4737196519)
+local Logs = require(4737196519)()
 
 Logs:InitTools(tools)
 ```
